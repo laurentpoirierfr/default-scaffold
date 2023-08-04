@@ -1,0 +1,16 @@
+version: "1"
+description: "[ Default Scaffold ]"
+fields:
+  - name: "project-name"
+    description: "Nom du projet : "
+    default: "default"
+  - name : "project-url"
+    description: "Repo du projet     : "
+    default: "https://gitlab.com/homezone/scaffolds/default"
+  - name : "project-version"
+    description: "Version du projet : "
+    default: "v0.1.0"
+  - name : "filename"
+    description: "Nom du fichier : "
+    default: "index"
+
