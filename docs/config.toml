@@ -1,4 +1,4 @@
-baseURL = {{ index . "project-base-dir" }}
+baseURL = "{{ index . 'project-base-dir' }}"
 languageCode = "fr-fr"
 title = "Dev-Tech"
 
@@ -20,7 +20,7 @@ theme = "hugo-book"
 # [[menu.before]]
 [[menu.after]]
   name = "Repository"
-  url = {{ index . "project-url" }}
+  url = "{{ index . 'project-url' }}"
   weight = 10
 
 [params]
