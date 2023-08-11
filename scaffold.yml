@@ -13,3 +13,8 @@ fields:
   - name: "project-base-dir"
     description: "Point d'entrée http de la documentation"
     default: "https://www.homezone.site/projets/mon-projet"
+exclude: 
+    folders:
+      - "/themes"
+    files:
+      - "/archetypes/default.md"
