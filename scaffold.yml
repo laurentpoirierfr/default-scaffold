@@ -10,7 +10,6 @@ fields:
   - name : "project-version"
     description: "Version du projet : "
     default: "v0.1.0"
-  - name : "filename"
-    description: "Nom du fichier : "
-    default: "index"
-
+  - name: "project-base-dir"
+    description: "Point d'entrée http de la documentation"
+    default: "https://www.homezone.site/projets/mon-projet"

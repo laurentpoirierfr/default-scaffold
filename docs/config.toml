@@ -1,0 +1,37 @@
+baseURL = '{{ index . "project-base-dir" }}'
+languageCode = "fr-fr"
+title = "Dev-Tech"
+
+theme = "hugo-book"
+
+
+[languages]
+[languages.fr]
+  languageName = 'French'
+  contentDir = 'content.fr'
+  weight = 1
+
+[languages.en]
+  languageName = 'English'
+  contentDir = 'content.en'
+  weight = 2
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Repository"
+  url = '{{ index . "project-url" }}'
+  weight = 10
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'auto'
+
+  # (Optional, default favicon.png) Set the path to a favicon file.
+  # If the favicon is /static/favicon.png then the path would be favicon.png
+  BookFavicon = 'favicon.png'
+
+  # (Optional, default none) Set the path to a logo for the book.
+  # If the logo is /static/logo.png then the path would be logo.png
+  BookLogo = 'logo.png'
