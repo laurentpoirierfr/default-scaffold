@@ -18,3 +18,5 @@ exclude:
       - "/themes"
     files:
       - "/archetypes/default.md"
+      - ".png"
+      
