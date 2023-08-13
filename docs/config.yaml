@@ -35,7 +35,7 @@ menu:
   # before: []
   after:
     - name: "Repository"
-      url: "{{ index . 'project-url' }}"
+      url: '{{ index . "project-url" }}'
       weight: 10
 
 params:
